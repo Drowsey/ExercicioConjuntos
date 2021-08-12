@@ -34,10 +34,6 @@ namespace ExercicioConjuntos
 
                 Console.WriteLine("\nTotal students: " + alunos.Count);
 
-                foreach(Aluno aluno in alunos)
-                {
-                    Console.WriteLine(aluno.Matricula);
-                }
             }
             catch (Exception e)
             {
